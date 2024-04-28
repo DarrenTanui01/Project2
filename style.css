@@ -4,11 +4,13 @@ body {
     background-position: center;
     background-size:cover;
   }
-
+  
   h1 {
     font-size: 3em;
     color: rgb(7, 7, 7);
   }
+
+  
   
   section {
     border: 3px solid #060000;  /* Sets a solid border 1px wide in light gray color (#ddd) */
@@ -24,6 +26,8 @@ body {
     height: 90px; /* Adjust height as needed */
     border-radius: 50%;
   }
+
+ 
   
   
 
