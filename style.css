@@ -1,12 +1,12 @@
 body {
-    background-image: url('images/Home/Singapore2.jpg');
+    background-image: url('images/Home/Home2.jpg');
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
+    background-size:cover;
   }
 
   h1 {
-    font-size: 2em;
+    font-size: 3em;
     color: rgb(0, 0, 11);
   }
   
@@ -16,8 +16,8 @@ body {
   }
 
   section {
-    border: 3px solid #ddd;  /* Sets a solid border 1px wide in light gray color (#ddd) */
-    padding: 40px;          /* Adds some padding inside the border for better spacing */
+    border: 3px solid #0e0d0d;  /* Sets a solid border 1px wide in light gray color (#ddd) */
+    padding: 2%;          /* Adds some padding inside the border for better spacing */
   }
   
   
