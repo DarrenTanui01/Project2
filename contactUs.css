@@ -7,6 +7,17 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    color: antiquewhite;
+  }
+
+  a {
+    color:antiquewhite;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  a:hover {
+    color: #007bff;
   }
 
   h1 {
