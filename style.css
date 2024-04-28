@@ -7,18 +7,30 @@ body {
 
   h1 {
     font-size: 3em;
-    color: rgb(0, 0, 11);
+    color: rgb(7, 7, 7);
   }
   
-  p {
-    font-size: 20px;
-    color: rgb(252, 245, 245);
-  }
-
   section {
-    border: 3px solid #0e0d0d;  /* Sets a solid border 1px wide in light gray color (#ddd) */
+    border: 3px solid #060000;  /* Sets a solid border 1px wide in light gray color (#ddd) */
     padding: 2%;          /* Adds some padding inside the border for better spacing */
   }
+
+  h2 {
+    color: rgb(6, 6, 6);
+  }
+
+  .icon-placeholder {
+    width: 90px;  /* Adjust width as needed */
+    height: 90px; /* Adjust height as needed */
+    border-radius: 50%;
+  }
+  
+  
+
+  
+  
+    
+   
   
   
   
