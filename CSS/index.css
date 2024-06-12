@@ -15,15 +15,20 @@ body {
 }
 
 h1 {
-  font-size: 3em;
-  color: #fff;
+  font-size: 4em;
+  color: #333;
 }
 
 .icon-placeholder {
-  width: 100px;
-  height: 100px;
+  width: 150px; 
+  height: 150px;
   border-radius: 50%;
+  position: absolute;
+  top: 0;
+  left: 85%;
+  transform: translateX(-50%);
 }
+
 
 footer {
   background-color: #333;
