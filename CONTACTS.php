@@ -18,10 +18,10 @@
     echo '<h1>TravelNestor</h1>';
     echo '<nav>';
     echo '<ul>';
-    echo '<a href="Home.html">HOME</a>';
-    echo '<a href="Singapore.html">DESTINATION</a>';
-    echo '<a href="BOOKINGS.html">BOOKINGS</a>';
-    echo '<a href="ABOUT US.html">ABOUT US</a>';
+    echo '<a href="Home.php">HOME </a>';
+    echo '<a href="Singapore.php">DESTINATION </a>';
+    echo '<a href="BOOKINGS.php">BOOKINGS </a>';
+    echo '<a href="ABOUT US.php">ABOUT US</a>';
     echo '</ul>';
     echo '</nav>';
     echo '</header>';

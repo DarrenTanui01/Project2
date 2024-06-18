@@ -18,9 +18,9 @@
     echo '<button class="dropbtn">MENU</button>';
     echo '<div class="dropdown-content">';
     echo '<a href="Home.php">HOME</a>';
-    echo '<a href="BOOKINGS.html">BOOKINGS</a>';
-    echo '<a href="ABOUT US.html">ABOUT US</a>';
-    echo '<a href="CONTACTS.html">CONTACT US</a>';
+    echo '<a href="BOOKINGS.php">BOOKINGS</a>';
+    echo '<a href="ABOUT US.php">ABOUT US</a>';
+    echo '<a href="CONTACTS.php">CONTACT US</a>';
     echo '</div>';
     echo '</li>';
     echo '</ul>';
