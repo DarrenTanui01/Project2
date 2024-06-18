@@ -54,7 +54,7 @@
 
    // Footer content
    $year = date("Y");
-   $footer = "<footer><p>© $year TravelNestor. All Rights Reserved.</p></footer>";
+   $footer = "<footer><p>&copy $year TravelNestor. All Rights Reserved.</p></footer>";
    
    // Output footer
    print($footer);

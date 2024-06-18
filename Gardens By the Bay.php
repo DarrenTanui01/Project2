@@ -18,10 +18,10 @@
     echo '<h1 align = "center" style="color: antiquewhite;">Gardens By The Bay</h1>';
     echo '<nav>';
     echo '<ul >';
-    echo '<a href="Home.php"  style="color: antiquewhite;">HOME</a>';
-    echo '<a href="Singapore.php"  style="color: antiquewhite;">DESTINATION</a>';
-    echo '<a href="ABOUT US.php"  style="color: antiquewhite;">ABOUT US</a>';
-    echo '<a href="CONTACTS.php"  style="color: antiquewhite;">CONTACTS</a>';
+    echo '<a href="Home.php"  style="color: antiquewhite;">HOME </a>';
+    echo '<a href="Singapore.php"  style="color: antiquewhite;">DESTINATION </a>';
+    echo '<a href="ABOUT US.php"  style="color: antiquewhite;">ABOUT US </a>';
+    echo '<a href="CONTACTS.php"  style="color: antiquewhite;">CONTACTS </a>';
     echo '</ul>';
     echo '</nav>';
     echo '</header>';
@@ -39,7 +39,12 @@
     echo '<img src = "images/Destination2/ground-view.jpg" alt = "" width = "50%">';
     echo '<img src = "images/Destination2/Night-garden.jpg" alt = "" width = "45%">';
 
-    echo '<footer>&copy 2024 TravelNestor. All Rights Reserved.</footer>';   
+    // Footer content
+   $year = date("Y");
+   $footer = "<footer><p>&copy $year TravelNestor. All Rights Reserved.</p></footer>";
+   
+   // Output footer
+   print($footer);  
    ?>
 </body>
 </html>

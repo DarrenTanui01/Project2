@@ -59,6 +59,13 @@
 
     // The button will submit the form data to 'form-handler.php'
     echo '<button type="submit">Send Message</button>';
+
+    // Footer content
+    $year = date("Y");
+   $footer = "<footer><p>&copy $year TravelNestor. All Rights Reserved.</p></footer>";
+   
+   // Output footer
+   print($footer);
     
    ?>
 </body>

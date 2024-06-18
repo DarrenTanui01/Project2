@@ -36,8 +36,12 @@
     echo '<img src = "images/Destination3/Chinatown3.jpg" alt = "" width = "50%">';
     echo '<img src = "images/Destination3/Chinatown4.jpg" alt = "" width = "45%">';
 
-    // Footer
-    echo '<footer>© 2024 TravelNestor. All Rights Reserved.</footer>';
+    // Footer content
+   $year = date("Y");
+   $footer = "<footer><p>&copy $year TravelNestor. All Rights Reserved.</p></footer>";
+   
+   // Output footer
+   print($footer);
     
    ?>
 </body>

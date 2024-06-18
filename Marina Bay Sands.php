@@ -35,7 +35,12 @@
     echo '<img src = "images/Destination1/Marina3.jpg" alt = "" width = "45%">';
     echo '<img src = "images/Destination1/Marina4.jpg" alt = "" width = "50%">';
 
-    echo '<footer>© 2024 TravelNestor. All Rights Reserved.</footer>';   
+    // Footer content
+   $year = date("Y");
+   $footer = "<footer><p>&copy $year TravelNestor. All Rights Reserved.</p></footer>";
+   
+   // Output footer
+   print($footer);  
    ?>
 </body>
 </html>

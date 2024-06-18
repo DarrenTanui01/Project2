@@ -41,9 +41,12 @@
     echo '<a href="ChinaTown.php">LEARN MORE</a>';
     echo '</section>';
     echo '</main>';
-    echo '<footer>';
-    echo '<p style="text-align: center;">©  2024 TravelNestor. All Rights Reserved.</p>';
-    echo '</footer>';   
+    // Footer content
+   $year = date("Y");
+   $footer = "<footer><p>&copy $year TravelNestor. All Rights Reserved.</p></footer>";
+   
+   // Output footer
+   print($footer);  
    ?>
 </body> 
 </html>
