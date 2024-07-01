@@ -63,7 +63,7 @@
             $Email = $_POST["email"];
             $Message = $_POST["message"];
 
-            $duplicate = mysqli_query($conn, "SELECT * FROM contactus WHERE Name='$Name' OR email='$email'");
+            $duplicate = mysqli_query($conn, "SELECT * FROM contactus WHERE Name='$Name' OR email='$Email'");
 
             if (mysqli_num_rows($duplicate) > 0) {
                 echo "<script>alert('Name or Email already exists');</script>";
