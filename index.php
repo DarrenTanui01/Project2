@@ -10,6 +10,10 @@
     <?php
     
     echo '<img src="images/Singapore/Singapore5.png" alt="Icon" class="icon-placeholder">';
+    echo '<nav class="auth-nav">';
+    echo '<a href="Sign_up.php">SIGN UP </a>';
+    echo '<a href="login.html">SIGN OUT </a>';
+    echo '</nav>';
     echo '<div class="container">';
     echo '<nav class="menu">';
     echo '<h1>TravelNestor</h1>';

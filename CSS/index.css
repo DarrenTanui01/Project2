@@ -7,6 +7,32 @@ header {
   align-items: center;
 }
 
+
+
+.auth-nav {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.auth-nav a {
+  color: #333;
+  text-decoration: none;
+  transition: color 0.3s ease-in-out;
+  font-size: 3em;
+  margin: 0;
+  color: white;
+  text-decoration: none;
+  padding: 10px 15px;
+  border-radius: 3px;
+  margin-left: 10px;
+}
+
+.auth-nav a:hover {
+  background-color: #2980b9;
+}
+
 body {
   background-color: darksalmon;
   background-repeat: no-repeat;
