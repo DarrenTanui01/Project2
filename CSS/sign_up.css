@@ -13,10 +13,16 @@ body {
   }
 
   a {
-    font-size: 2em;
-    color: #333;
-    text-decoration: none;
+    font-size:larger;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    color: #843d11;
+    text-decoration: solid;
     transition: color 0.3s ease-in-out;
+  }
+
+  a:hover {
+    color: #007bff;
   }
   
   .logo {
