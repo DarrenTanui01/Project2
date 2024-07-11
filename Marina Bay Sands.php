@@ -18,10 +18,10 @@
     echo '<h1 align = "center" style="color: antiquewhite;" >Marina Bay Sands</h1>';
     echo '<nav>';
     echo '<ul >';
-    echo '<a href="Home.html"  style="color: antiquewhite;">HOME</a>';
-    echo '<a href="Singapore.html"  style="color: antiquewhite;">DESTINATION</a>';
-    echo '<a href="ABOUT US.html"  style="color: antiquewhite;">ABOUT US</a>';
-    echo '<a href="CONTACTS.html"  style="color: antiquewhite;">CONTACTS</a>';
+    echo '<a href="Home.php"  style="color: antiquewhite;">HOME</a>';
+    echo '<a href="Singapore.php"  style="color: antiquewhite;">DESTINATION</a>';
+    echo '<a href="ABOUT US.php"  style="color: antiquewhite;">ABOUT US</a>';
+    echo '<a href="CONTACTS.php"  style="color: antiquewhite;">CONTACTS</a>';
     echo '</ul>';
     echo '</nav>';
     echo '</header>';
