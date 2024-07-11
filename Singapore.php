@@ -18,10 +18,10 @@
     echo '<h1 align = "center" style="color: antiquewhite;" >Singapore</h1>';
     echo '<nav>';
     echo '<ul >';
-    echo '<a href="Home.php"  style="color: antiquewhite;">HOME</a>';
-    echo '<a href="BOOKINGS.php"  style="color: antiquewhite;">BOOKINGS</a>';
-    echo '<a href="ABOUT US.php"  style="color: antiquewhite;">ABOUT US</a>';
-    echo '<a href="CONTACTS.php"  style="color: antiquewhite;">CONTACTS</a>';
+    echo '<a href="Home.php"  style="color: antiquewhite;">HOME </a>';
+    echo '<a href="BOOKINGS.php"  style="color: antiquewhite;">BOOKINGS </a>';
+    echo '<a href="ABOUT US.php"  style="color: antiquewhite;">ABOUT US </a>';
+    echo '<a href="CONTACTS.php"  style="color: antiquewhite;">CONTACTS </a>';
     echo '</ul>';
     echo '</nav>';
     echo '</header>';
